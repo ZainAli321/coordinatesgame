@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find It!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Find out the coordinate</h1>
+        <div id="randomp">
+            <p id="instruction">You need to find and hover over this cordinate: </p> <p  id="xrandomp">X : </p> <p  id="yrandomp"> Y : </p>
+        </div>
+        <p id="hint">Hint -----> You need to hold shift to look at your coordinates</p>
+        <div id="coordinates">
+            <p class="currentCoordinates">Your X coordinates are: <p class="currentCoordinates" id="x-c"></p></p>
+            <p class="currentCoordinates">Your Y coordinates are: </p> <p class="currentCoordinates" id="y-c"></p> 
+        </div> 
+        <div class="center">
+            <a id="Winner" href="win.html">You Have <span id="won">WON</span>!</a> 
+        </div>
+    </div>
+</body>
+    <script src="index.js"></script>
+</html>

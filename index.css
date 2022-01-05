@@ -1,0 +1,87 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(84, 216, 226);
+  background: linear-gradient(
+    153deg,
+    rgba(84, 216, 226, 0.9220063025210083) 13%,
+    rgba(186, 155, 224, 1) 49%,
+    rgba(255, 82, 117, 0.9108018207282913) 78%
+  );
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+
+a:hover {
+  color: gold;
+  background-color: black;
+}
+.currentCoordinates {
+  display: inline;
+}
+
+#coordinates {
+  text-align: center;
+  margin-top: 45px;
+}
+
+#randomp {
+  display: inline;
+}
+
+#instruction {
+  font-weight: bold;
+}
+
+#hint {
+  font-size: 0.8em;
+}
+
+#Winner {
+  margin-top: 85px;
+  position: absolute;
+  left: 39%;
+  font-size: 2.5em;
+  padding: 15px;
+  display: none;
+}
+
+#won {
+  letter-spacing: 5px;
+}
+
+#again {
+  font-size: 3em;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+#againdiv {
+  margin-top: 10%;
+}
+
+#youhavewon {
+  font-size: 3em;
+}
